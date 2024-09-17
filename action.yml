@@ -51,6 +51,7 @@ runs:
         REPO_NAME: ${{ github.event.repository.name }}
         PULL_NUMBER: ${{ github.event.number }}
         STANDARDS: ${{ inputs.standards }}
+        LLM_URL: ${{ inputs.llm_url }}
       run: python "${{ github.action_path }}/.ai/github_reviewer.py"
       shell: bash
 
