@@ -1,5 +1,5 @@
-name: "QuickDev-Pr-Reveiwer"
-description: "Review PR using the power of AI"
+name: "OpenLLMPRR"
+description: "Review PR using the power of Open source AI"
 author: "Suman Mondal"
 branding:
   color: "blue"
