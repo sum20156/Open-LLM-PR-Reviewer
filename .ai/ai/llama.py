@@ -36,7 +36,7 @@ class LLama(AiBot):
         data_json = json.dumps(data)
 
         # Sending the POST request and storing the response
-        response = requests.post(self._url, headers=headers, data=data_json)
+        response = requests.post(self._url, headers=headers, data=data_json,verify=False)
 
         # Printing the response text to see the output from the API
         return response.text
